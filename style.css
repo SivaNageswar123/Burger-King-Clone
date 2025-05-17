@@ -285,3 +285,41 @@ header{
 #rewards{
     margin-left: 3px;
 }
+@media (max-width: 768px) {
+  .container1 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .main-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card1, .card2, .card4 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .tc {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .about img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .container3 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .nav-footer {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
